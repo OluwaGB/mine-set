@@ -147,7 +147,7 @@ a:hover{
 
 
 @media screen and (max-width:780px){
-    body{
+    body{display:grid;
 font-family:'Courier New', Courier, monospace;
         place-items:center;
         /*place-content:center;*/
