@@ -1,4 +1,12 @@
-
+@media screen and (max-width:780px){
+    body{
+        place-items:center;
+        place-content:center;
+    }
+    nav a{
+        display:none;
+    }
+}
 body{place-content:center;}
     #hero{ color:white;
     font-family: 'Courier New', Courier, monospace;
@@ -120,7 +128,7 @@ a:hover{
 #two div{
     
    margin-top:-12%;
-    padding:4rem;
+    padding:2rem;
     
 }
 #two{/*padding-left: */
@@ -135,4 +143,57 @@ a:hover{
 }
 #eleven,#five,#eight,#nine,#seven{
     place-content: center;
+}
+
+
+@media screen and (max-width:780px){
+    body{
+
+        place-items:center;
+        /*place-content:center;*/
+    }
+    nav a{
+        display:none;
+    }
+    #navbtn{ 
+        width:30%;
+    }
+    #nine{display:grid;}
+    #hero{padding:auto;
+        place-items: center;
+        text-align: center;
+    }
+    #flexbtn{display:grid;
+    place-content: center;
+margin:3%;}
+    #transparent,#service{
+        width:100%;
+    }
+    #two,#three,#flex,#container,#five{place-items: center;
+        display:grid;
+        
+    }
+    #nine,#eight,#address{place-items: center;
+        display:grid;}
+        
+    #address{
+        text-align:center;
+    }
+    .container{display:grid;
+    place-content: center;}
+    .img{
+        display:grid;
+        place-items: center;
+        padding:3%;
+    }
+    #blues{
+        place-items: center;
+        width:100%;
+    }
+    #blues button{
+        width:100%;
+    }
+    #black{
+        margin-top: auto;
+    }
 }
