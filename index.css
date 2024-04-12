@@ -48,7 +48,7 @@ a:hover{
     margin-left: 50%;
 
 }
-#hero h2{font-size:90px;
+#hero h2{font-size:80px;
   font-weight: 700;
     color:white;
     margin-top: auto;
@@ -152,6 +152,9 @@ a:hover{
         place-items:center;
         /*place-content:center;*/
     }
+    #eleven{
+        display:grid;
+        place-content:center;
     nav a{
         display:none;
     }
